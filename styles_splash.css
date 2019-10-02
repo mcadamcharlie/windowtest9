@@ -1,0 +1,35 @@
+/* for splash screen only*/
+body{
+
+  background-color:#9fbee0;
+ 
+}
+
+
+
+
+/*
+please wait...
+
+#splash{
+	color:white;
+	font-size:2em;
+	font-family: 'Noto Sans JP', sans-serif;
+	z-index:9999;
+	
+	position: absolute;
+	top: 55%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	
+}
+*/
+
+/*
+#tile{
+	text-align:center;
+	color:white;
+	font-size:4em;
+	
+}*/
+	

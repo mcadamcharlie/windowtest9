@@ -1,0 +1,151 @@
+
+/*everything but splash screen*/
+
+body{
+	background-color:#54affd;
+}
+
+.navcol{
+	color:#4090b3;
+	background-color:#4090b3;
+}
+
+
+#tile{
+	text-align:center;
+	color:white;
+	font-size:1.5em;
+	font-family: 'Prompt', sans-serif;
+}
+
+
+#p{
+	text-align:center;
+	color:white;
+	font-size:1.5em;
+	font-family: 'Prompt', sans-serif;
+}
+
+#image{
+	width:14em;
+	height:3.3em;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+ 
+ 
+ #frame{
+	width:361px;
+    height:620;
+
+ }
+ 
+ .button{
+	 background-color:#3a80ff;
+	 color:white;
+	 border:none;
+	 font-size:2em;
+	 width:auto;
+	 height:auto;	 
+	 
+ }
+
+#splash{
+	color:white;
+	font-size:5em;
+	
+	z-index:9999;
+	
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	
+}
+
+#gif{
+	z-index:1;
+}
+
+ 
+ #bgcolor{
+	 
+	 BORDER:NONE;
+	 background-color:#2688db;
+ }
+ 
+ 
+ 
+ #overlay {
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color:#9fbee0;
+  z-index: 2;
+  cursor: pointer;
+}
+
+#text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 50px;
+  color: white;
+  transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+}
+
+
+.desc{
+	
+	color:white;
+	font-size:1.5em;
+	text-align:center;
+	
+}
+
+#ti{
+	
+	color:white;
+	font-size:2em;
+	text-align:center;
+	
+	
+}
+
+/*honor play
+@media screen and (max-width: 600px) {
+ #frame{
+	size:100%;
+	 width:361px;
+	height:620;
+	 
+ }
+}
+
+
+@media screen and (max-width: 720px) {
+ #frame{
+	width:361px;
+    height:620;
+	 
+ }
+}
+/*end honnor play
+
+@media screen and (max-width: 1080px) {
+ #frame{
+	 width:361px;
+	 height:620;
+	 
+ }
+}*/
+	
+	

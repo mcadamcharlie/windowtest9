@@ -1,0 +1,68 @@
+<!-- charlie McAdam !-->
+<!--09/09/2019!-->
+
+<html>
+<head>
+<title>Home/Message board</title>
+<!-- sets device scale!-->
+ <meta charset="UTF-8">
+<meta content="width=device-width, initial-scale=1" name="viewport" />
+<script src="src/jquery.mobile-1.4.5.min.js"></script>
+<!-- CSS link !-->
+<link rel="stylesheet" type="text/css" href="styles.css">
+
+<!-- w3schools link!-->
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+
+<!-- START !-->
+<body>
+<!--title!-->
+
+<div id="tile">
+Message Board
+</div>
+
+
+<!-- side bar start !-->
+<div class="w3-sidebar w3-bar-block w3-card w3-animate-left" style="display:none" id="mySidebar">
+  <button class="w3-bar-item w3-button w3-large"
+  onclick="w3_close()">Close &times;</button>
+  <a href="welcome.html" class="w3-bar-item w3-button">Welcome</a>
+  <a href="message.html" class="w3-bar-item w3-button">Message board</a>
+  <a href="pay.html" class="w3-bar-item w3-button">Payments</a>
+
+</div>
+
+<div id="main">
+
+<div class="w3-Blue">
+  <button id="openNav" class="w3-button w3-Blue w3-xlarge" onclick="w3_open()">&#9776;</button>
+  
+</div>
+<!-- end nav bar !-->
+
+
+
+
+
+
+<iframe id="frame" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" allowtransparency="true" src="https://chatroll.com/embed/chat/9eev?id=3oGqDk151eS&platform=html"></iframe>
+  
+
+
+
+
+<!--spalsh!-->
+<div id="overlay" onclick="off()">
+<p id="splash"> Tap To Continue</p>
+<img src="splash.gif" id="gif" width="auto" height="auto">
+
+
+</div>
+
+
+<script src="nav.js"></script>
+<!--END!-->
+</body>
+
